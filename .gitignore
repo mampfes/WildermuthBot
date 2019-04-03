@@ -1,0 +1,7 @@
+.idea
+venv
+__pycache__
+body.csv
+header.csv
+users_db.json
+Vertretungsplan.pdf

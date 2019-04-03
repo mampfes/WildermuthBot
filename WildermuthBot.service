@@ -1,0 +1,15 @@
+[Unit]
+Description=Wildermuth Vertretungsplan Telegram Bot
+
+[Service]
+User=openhab
+Group=openhab
+WorkingDirectory=/etc/openhab2/tools/WildermuthBot
+ExecStart=/etc/openhab2/tools/WildermuthBot/WildermuthBot.py
+Restart=always
+RestartSec=10s
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
